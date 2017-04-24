@@ -1,0 +1,170 @@
+body {
+    padding-bottom: 20px;
+}
+
+hr{
+    padding: 0px;
+    margin: 0px;
+}
+
+
+.jumbotron.header{
+  height: 450px;
+  color: white;
+  background:black;
+  background: url(../img/bg.jpeg) 
+  no-repeat center center fixed; 
+  -webkit-background-size: cover; 
+  -moz-background-size: cover; 
+  -o-background-size: cover; 
+  background-size: cover;
+  padding: 20px 0px 0px 0px;
+  -webkit-transition: opacity 1s ease-in-out;
+  -moz-transition: opacity 1s ease-in-out;
+  -o-transition: opacity 1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  animation-name: headerFadeInOut;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-duration: 0s;
+  animation-direction: alternate;
+}
+
+ @keyframes headerFadeInOut {
+  0% {opacity:1;}
+  45% {opacity:1;}
+  55% {opacity:0;}
+  100% {opacity:0;}
+  }
+
+
+.container.suscribe{
+  height: 200px;
+  background:white;
+  background-color: transparent;
+  border-color: black;
+  padding:0;
+  margin:0;
+}
+.container.suscribe h3{
+  font-size: 15px;
+}
+
+.menu{
+    position: relative;
+    top: 0px;
+    right: -900px;
+
+}
+
+.suscribe input{
+    border-radius: 2px;
+}
+
+.jumbotron.header img {
+    width: 10%;
+    height: auto;
+    padding-top: 1%;
+    position: absolute;
+    top: 20px;
+    left: 210px;
+}
+
+.center_text p{
+    padding: 5px 0px 40px 0px;
+    text-align: center;
+    font-size: 12px;
+}
+
+.center_text h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 25px 0px 5px 0px;
+    letter-spacing: 1.5px;
+}
+
+.jumbotron.inscribe{
+    height: 320px;
+    background-color: transparent;
+    background: #FAFAFA;
+    padding: 0;
+    box-shadow: 0px 0px 1px 2px #ccc;
+}
+
+.jumbotron.inscribe h2{
+    font-weight: bold;
+    text-align: center;
+    font-size: 18px;
+    padding: 50px 0px 0px 0px;
+    letter-spacing: 1px;
+}
+
+.jumbotron.inscribe p{
+    text-align: center;
+    font-size: 14px;
+}
+
+.main_text{
+    font-size: 35px;
+    /*padding: top right bottom left;*/
+    padding: 45px 0px 20px 0px;
+
+}
+.main_img img{
+    width: 40%;
+    height: auto;
+    padding: 20px 0px 0px 0px;
+}
+
+ .footer{
+  height: 100px;
+  color: white;
+  background: #222222;
+ }
+
+ .inscribe_button{
+    padding: 10px 0px 10px 0px;
+ }
+
+ .footer p{
+   font-size: 15px;
+    padding: 25px 0px 20px 0px;
+    letter-spacing: 2px;
+    float: left;
+    margin-left: 200px;
+    margin-right: 20px;
+    font-weight: bold;
+ }
+.sus_mail{
+    padding: 0px 0px 20px 0px;
+}
+
+.sus_mail button{
+
+    background-color: transparent;
+  border-color: #ccc;
+}
+
+nav a {
+  display: inline-block;
+  justify-content: space-between;
+  padding: 10px;
+  color: grey;
+  font-size: 15px;
+}
+nav a:hover{
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+
